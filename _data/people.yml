@@ -1,9 +1,8 @@
 instructors:
-  - name: Albus Dumbledore
+  - name: Dr Juan Vesga 
     profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
+    webpage: https://www.lshtm.ac.uk/aboutus/people/vesga.juan
+
 
 teaching_assistants:
   - name: Harry Potter
