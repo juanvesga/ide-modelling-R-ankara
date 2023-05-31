@@ -1,14 +1,14 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: "Short course on modelling infectious disease dynamics in R" 
+course_description: "Training course on modelling infectious disease dynamics in for public health specialists. The course covers the basics of R, principles of mathematical epidemiology applied to infectious diseases, introduction to modelling compartmental models and other analytical methods in R for assesing outbreaks and public health interventions"
+course_semester: "June 2023, Ankara, Türkiye"
 
 baseurl: "/ide-modelling-R-ankara" # the subpath of your site, e.g. /blog/
 url: "http://juanvesga.github.io/" # the base hostname & protocol for your site
 
 schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolurl: "https://www.lshtm.ac.uk/aboutus/people/vesga.juan"
+twitter_username: "https://twitter.com/juanf_vesga"
 
 address: |
     School of Witchcraft and Wizardry
