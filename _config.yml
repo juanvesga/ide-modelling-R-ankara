@@ -1,19 +1,18 @@
 # Site settings
 course_name: "Short course on modelling infectious disease dynamics in R" 
-course_description: "Training course on modelling infectious disease dynamics in for public health specialists. The course covers the basics of R, principles of mathematical epidemiology applied to infectious diseases, introduction to modelling compartmental models and other analytical methods in R for assesing outbreaks and public health interventions"
+course_description: "Training course on modelling infectious disease dynamics for public health specialists. The course covers the basics of R, principles of mathematical epidemiology applied to infectious diseases, introduction to modelling compartmental models and other analytical methods in R for assesing outbreaks and public health interventions"
 course_semester: "June 2023, Ankara, Türkiye"
 
 baseurl: "/ide-modelling-R-ankara" # the subpath of your site, e.g. /blog/
 url: "http://juanvesga.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
+schoolname: "Created by Juan Vesga"
 schoolurl: "https://www.lshtm.ac.uk/aboutus/people/vesga.juan"
-twitter_username: "https://twitter.com/juanf_vesga"
+twitter_username: "@juanf_vesga"
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    Created by Juan F Vesga for The Health Security Project (HSP) in Türkiye, Ministry of Health (GDPH-MoH). 
+    Funded by the European Union and being implemented in the country by the World Health Organization (WHO).  
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
