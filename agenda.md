@@ -3,7 +3,7 @@ layout: page
 title: Course Agenda
 permalink: /agenda/
 ---
-This is the schedule of lectures and practicals for the five days of the short course. For further details explore the tabs "Check the respective tabs [Lectures](https://juanvesga.github.io/ide-modelling-R-ankara/agenda/) and [Practicals](https://juanvesga.github.io/ide-modelling-R-ankara/assignments/)  
+This is the schedule of lectures and practicals for the five days of the short course. For further details explore the tabs "Check the respective tabs [Lectures](https://juanvesga.github.io/ide-modelling-R-ankara/lectures/) and [Practicals](https://juanvesga.github.io/ide-modelling-R-ankara/assignments/)  
 
 
 **Day 1: Introduction to R**
