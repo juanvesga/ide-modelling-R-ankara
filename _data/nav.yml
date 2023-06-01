@@ -12,7 +12,7 @@ items:
   icon_class: fas fa-book-reader
 
 - url: /assignments/
-  name: Assignments
+  name: Practical
   icon_class: fas fa-user-graduate
 
 - url: /project/
