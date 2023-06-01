@@ -1,8 +1,10 @@
 ---
 layout: schedule
-title: Schedule
+title: Agenda
 permalink: /schedule/
 ---
+
+
 | **Day** | **Time** | **Session** | **Aims** |
 |:---:|:---:|:---:|:---:|
 | 1 | 9.30 – 9:45 AM | Course introduction    | Introductions, present the schedule for the week, housekeeping |
