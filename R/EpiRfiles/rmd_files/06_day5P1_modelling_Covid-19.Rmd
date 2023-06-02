@@ -3,7 +3,7 @@ layout: post
 title: "Day 5 Practical 1: Creating a model of COVID-19"
 author: Juan Vesga
 published: false
-status: process
+status: done_process
 draft: false
 tags: R Jekyll RStudio   
 ---

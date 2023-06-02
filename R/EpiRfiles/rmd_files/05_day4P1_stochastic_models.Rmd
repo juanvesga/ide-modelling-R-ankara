@@ -3,7 +3,7 @@ layout: post
 title: "Day 4 Practical 1: Stochastic models" 
 author: Juan Vesga
 published: false
-status: process
+status: done_process
 draft: false
 tags: R Jekyll RStudio   
 ---

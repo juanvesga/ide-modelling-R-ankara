@@ -3,7 +3,7 @@ layout: post
 title: "Day 2 Lecture 1: Introduction to compartmental models" 
 author: Juan Vesga
 published: false
-status: process
+status: done_process
 draft: false
 tags: R Jekyll RStudio   
 ---
