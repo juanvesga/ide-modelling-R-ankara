@@ -5,8 +5,8 @@ title: "Day 1 Practical 2: Getting staRted"
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-published: false
-status: process
+# published: false
+# status: process
 # due_event: 
 #     type: due
 #     date: 2018-11-13T23:59:00+3:30
