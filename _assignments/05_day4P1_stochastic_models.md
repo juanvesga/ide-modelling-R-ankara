@@ -5,11 +5,17 @@ title: "Day 4 Practical 1: Stochastic models"
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
+published: true
+status: publish
 due_event: 
     type: due
     date: 2018-11-13T23:59:00+3:30
     description: 'Assignment #1 due'
 ---
+ 
+ 
+ 
+
  
 In this practical we will apply some of the concepts about stochasticity, epidemic persistence and fade out probability. With that aim in mind we will start by exploring the binomial distribution, and how can we sample from a distribution in R.  
  
@@ -20,7 +26,7 @@ In statistics and probability theory, we tend to associate certain even characte
 $$
 Weight \sim Normal(72.5,5)  
 $$
-![plot of chunk unnamed-chunk-1](/_imagesunnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-1-1.png)
  
 The Binomial distribution on the other hand, is a discrete probability distribution of the number of successes in a sequence of experiments. Think about flipping a coin several times and counting the number of times you will get heads as a result. The Binomial distribution takes parameters _n_ (number of trials), and _p_ (probability of success). If we keep with our example of tossing a coin, we can say that if the coin is fair, the probability of success (get heads) is 50%. This means that if we toss the coin enough times the count of successes should approach 50%. 
  
@@ -206,7 +212,7 @@ legend("topright", lwd = 1, col = sir_col, legend = c("S", "I", "R"), bty = "n")
  
 Once you have run your model, you should seea plot like this one below: 
  
-![plot of chunk unnamed-chunk-9](/_imagesunnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-9-1.png)
  
 Given that we introduced a stochastic process, every model run will be different. Try running this same code several times to see how results vary.
  
@@ -233,7 +239,7 @@ lines(c(0,365*2),c(Y_limit,Y_limit), col="black")
 legend("topright", lwd = 1, col = "Orangered2", legend = c("I"), bty = "n")
 {% endhighlight %}
  
-![plot of chunk unnamed-chunk-11](/_imagesunnamed-chunk-11-1.png)
+![plot of chunk unnamed-chunk-11](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-11-1.png)
  
 4. What can you tell about the trend of infections over time? 
 5. Try reproducing this analysis for a value of R0 = 1.1 and for R0 = 4. What do you observe? 
@@ -256,7 +262,7 @@ lines(c(0,t_end),c(Y_limit,Y_limit),type="l", col="red")
 legend("topright", lwd = 1, col = "grey", legend = c("I"), bty = "n")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-12](/_imagesunnamed-chunk-12-1.png)
+![plot of chunk unnamed-chunk-12](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-12-1.png)
  
  
 Given that we have a number of replicates or simulations for the same model we could estimate a probability of epidemic extinction for the current model parameters. We can do it by looking how many of those Infections trajectories are equal to zero at the end of the simulation time. 

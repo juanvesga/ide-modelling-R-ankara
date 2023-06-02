@@ -5,11 +5,14 @@ title: "Day 5 Practical 1: Creating a model of COVID-19"
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
+published: true
+status: publish
 due_event: 
     type: due
     date: 2018-11-13T23:59:00+3:30
     description: 'Assignment #1 due'
 ---
+
  
 In this __final project__ we will put in practice most of the concepts learnt so far in the course. By the end of this practical you should have been able to define and run a model for the transmission of SARS-CoV2, interpret its main output and simulate interventions. 
  
@@ -173,7 +176,7 @@ points(case_data$day,case_data$cases,type = "p",col="black", pch=17)
 legend("topright", lwd = c(1,NA), col = c("Purple","black"), legend = c("Mean cases","Data"), lty=c(1,NA),pch=c(NA,17),bty = "n")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-5](/_imagesunnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-5](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-5-1.png)
  
 You have a preliminary model simulation and some real data for the first 30 days. Now you have to try to reproduce the data with your model. 
  
@@ -297,7 +300,7 @@ yy<- get_lockdown(x,reduction=effect,starts,duration)
 plot(x,yy,type="l") 
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/_imagesunnamed-chunk-8-1.png)
+![plot of chunk unnamed-chunk-8](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-8-1.png)
  
 Look carefully at the plot and understand what is being plotted. Think of it as windows of relaxation (equals 1), followed by restriction (<1). 
  
@@ -348,7 +351,7 @@ axis(side=4, at = pretty(range(yy)))
 mtext("z", side=4, line=3)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/_imagesunnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-9-1.png)
  
 __Task 8:__ Using this code, design your own plan of intervention. Use the following tips:
  

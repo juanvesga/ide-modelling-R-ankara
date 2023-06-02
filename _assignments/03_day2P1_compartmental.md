@@ -1,16 +1,19 @@
 ---
 type: assignment
 date: 2018-09-26T4:00:00+4:30
-title: "Day 3 Practical 1: Introduction to compartmental models" 
+title: "Day 2  Practical 1: Introduction to compartmental models" 
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
+published: true
+status: publish
 due_event: 
     type: due
     date: 2018-11-13T23:59:00+3:30
     description: 'Assignment #1 due'
 ---
  
+
  
  
 In our previous sessions we have reviewed how compartmental models can be used to describe infectious diseases. We have also examined how to specify rates of transition, its relation with time distributions and the how we interpret simple modelling output. During this first practical we will first see how a simple cohort model is coded, and will also examine testing the basic assumptions of the model.  
@@ -127,7 +130,7 @@ ggplot(data = output1_long,                                              # speci
   title = "Cohort model")  
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-2](/_imagesunnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-2-1.png)
  
 Task: Using the code above explore running the same model but now imagine a scenario where the mean infectious period in our cohort is 10 days instead of two days. Can you explain why the plot looks different? 
  
@@ -213,7 +216,7 @@ ggplot(data = output2_long,
        title = "Cohort model")    
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-3](/_imagesunnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-3-1.png)
  
  
 ### 2.1 Explore CFR from our simulation
@@ -238,7 +241,7 @@ ggplot(data = output3_long,
        title = "Cohort model")  
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-4](/_imagesunnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](/C:/Users/JuanVesga/Dropbox/Code/Git/ide-modelling-R-ankara/ide-modelling-R-ankara/_images/unnamed-chunk-4-1.png)
 
 {% highlight r %}
 # Can you tell from the graph what proportion of people have died as a result of the disease?

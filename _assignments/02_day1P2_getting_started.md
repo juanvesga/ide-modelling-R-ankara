@@ -5,11 +5,15 @@ title: "Day 1 Practical 2: Getting staRted"
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-# due_event: 
-#     type: due
-#     date: 2018-11-13T23:59:00+3:30
-#     description: 'Assignment #1 due'
+published: true
+status: publish
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
 ---
+ 
+
  
 In a previous practical you learnt how to set up your R and RStudio environment and create an initial workflow with an R project, folder structure and a first R script.   
  
