@@ -12,20 +12,6 @@ due_event:
 ---
  
  
-# ---
-# layout: post
-# title: "Day 1 Practical 2: Getting staRted" 
-# author: Juan Vesga
-# published: false
-# status: process
-# draft: false
-# tags: R Jekyll RStudio   
-# ---
- 
- 
-
- 
- 
 In a previous practical you learnt how to set up your R and RStudio environment and create an initial workflow with an R project, folder structure and a first R script.   
  
 To start this practical:  
