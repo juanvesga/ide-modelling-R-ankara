@@ -130,9 +130,7 @@ ggplot(data = output1_long,                                              # speci
   title = "Cohort model")  
 {% endhighlight %}
 
-{% include image.html url="/_images/unnamed-chunk-2-1.png %}
-
-![plot of chunk unnamed-chunk-2](_images/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](_images/imgd2p11.png)
  
 Task: Using the code above explore running the same model but now imagine a scenario where the mean infectious period in our cohort is 10 days instead of two days. Can you explain why the plot looks different? 
  
