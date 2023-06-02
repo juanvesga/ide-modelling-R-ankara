@@ -1,16 +1,12 @@
 ---
-type: assignment
-date: 2018-09-26T4:00:00+4:30
-title: "Day 1 Practical 1: Introduction to R"
-pdf: /static_files/practicals/day1_P2_getting_started.pdf
-attachment: /static_files/practicals/asg.zip
-#solutions: /static_files/practicals/asg_solutions.pdf
-# due_event: 
-#     type: due
-#     date: 2018-11-13T23:59:00+3:30
-#     description: 'Assignment #1 due'
+layout: post
+title: "Day 1 Practical 2: Getting staRted" 
+author: Juan Vesga
+published: false
+status: done_process
+draft: false
+tags: R Jekyll RStudio   
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -234,3 +230,5 @@ install.packages("tidyverse") # collection of packages for data managing and plo
 install.packages("here")      # Allows you to get the root path to your folder
 ```  
 Google the name of these packages and you will find the documentation for each one. You can explore the sets of functions they provide and how they work. 
+
+
