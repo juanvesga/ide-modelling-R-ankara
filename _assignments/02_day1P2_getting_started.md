@@ -1,19 +1,15 @@
 ---
-layout: post
-title: "Day 1 Practical 2: Getting staRted" 
-author: Juan Vesga
-published: true
-status: publish
-draft: false
-tags: R Jekyll RStudio   
 type: assignment
+date: 2018-09-26T4:00:00+4:30
+title: "Day 1 Practical 2: Getting staRted" 
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
 ---
- 
-
- 
  
 In a previous practical you learnt how to set up your R and RStudio environment and create an initial workflow with an R project, folder structure and a first R script.   
  
