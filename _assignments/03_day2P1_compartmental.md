@@ -1,5 +1,4 @@
 ---
-layout: post
 type: assignment
 date: 2018-09-26T4:00:00+4:30
 title: "Day 2  Practical 1: Introduction to compartmental models" 
@@ -10,7 +9,6 @@ due_event:
     type: due
     date: 2018-11-13T23:59:00+3:30
     description: 'Assignment #1 due'
-tags: R 
 ---
  
 
@@ -130,8 +128,8 @@ ggplot(data = output1_long,                                              # speci
   title = "Cohort model")  
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-2](../_images/imgd2p11.png)
- <!-- ![Alt text](../_images/imgd2p11.png) -->
+![plot of chunk unnamed-chunk-2](../_images/unnamed-chunk-2-1.png)
+ 
 Task: Using the code above explore running the same model but now imagine a scenario where the mean infectious period in our cohort is 10 days instead of two days. Can you explain why the plot looks different? 
  
  
@@ -216,7 +214,7 @@ ggplot(data = output2_long,
        title = "Cohort model")    
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-3](/_images/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](../_images/unnamed-chunk-3-1.png)
  
  
 ### 2.1 Explore CFR from our simulation
@@ -241,7 +239,7 @@ ggplot(data = output3_long,
        title = "Cohort model")  
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-4](/_images/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](../_images/unnamed-chunk-4-1.png)
 
 {% highlight r %}
 # Can you tell from the graph what proportion of people have died as a result of the disease?

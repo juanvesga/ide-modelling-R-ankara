@@ -174,7 +174,7 @@ points(case_data$day,case_data$cases,type = "p",col="black", pch=17)
 legend("topright", lwd = c(1,NA), col = c("Purple","black"), legend = c("Mean cases","Data"), lty=c(1,NA),pch=c(NA,17),bty = "n")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-5](/_images/unnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-5](../_images/unnamed-chunk-5-1.png)
  
 You have a preliminary model simulation and some real data for the first 30 days. Now you have to try to reproduce the data with your model. 
  
@@ -298,7 +298,7 @@ yy<- get_lockdown(x,reduction=effect,starts,duration)
 plot(x,yy,type="l") 
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/_images/unnamed-chunk-8-1.png)
+![plot of chunk unnamed-chunk-8](../_images/unnamed-chunk-8-1.png)
  
 Look carefully at the plot and understand what is being plotted. Think of it as windows of relaxation (equals 1), followed by restriction (<1). 
  
@@ -349,7 +349,7 @@ axis(side=4, at = pretty(range(yy)))
 mtext("z", side=4, line=3)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/_images/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](../_images/unnamed-chunk-9-1.png)
  
 __Task 8:__ Using this code, design your own plan of intervention. Use the following tips:
  
