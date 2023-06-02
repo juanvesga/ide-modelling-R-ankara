@@ -3,7 +3,7 @@ layout: post
 title: "Day 1 Practical 2: Getting staRted" 
 author: Juan Vesga
 published: false
-status: done_process
+status: process
 draft: false
 tags: R Jekyll RStudio   
 ---
