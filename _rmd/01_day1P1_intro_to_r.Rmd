@@ -2,19 +2,17 @@
 title: 'Day 1 Practical 1: Introduction to R'
 date: "2023-06-05"
 type: assignment
-output: pdf_document
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
 published: no
-status: done_process
+status: process
 due_event:
   type: due
   date: "2018-11-13T23:59:00+3:30"
   description: 'Assignment #1 due'
 pdf: /static_files/assignments/asg.pdf
----   
+---
 
-  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```

@@ -1,14 +1,16 @@
 ---
+title: 'Day 1 Practical 1: Introduction to R'
+date: "2023-06-05"
 type: assignment
-date: 2018-09-26T4:00:00+4:30
-title: "Day 1 Practical 1: Introduction to R" 
-pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-due_event: 
-    type: due
-    date: 2018-11-13T23:59:00+3:30
-    description: 'Assignment #1 due'
+published: true
+status: publish
+due_event:
+  type: due
+  date: "2018-11-13T23:59:00+3:30"
+  description: 'Assignment #1 due'
+pdf: /static_files/assignments/asg.pdf
 ---
  
 
@@ -69,11 +71,11 @@ To create an Project in R, follow these steps:
  
 3.  In the Project Type window, create a new project in Rstudio by selecting New Project -\> Create New Project, in the Directory Name box put the name "EpiRcourse".
  
-![](images/fig1d1p1.png)
- 
+![fig1](../_images/fig1d1p1.png)
+
 4.  Select the Browse... button, now you should create a folder that will serve as a repository for your project, as well as the sub folders you need to organize your work (for example: data, scripts, figures). At the end select the folder that will serve as the repository. In the end, your project should look like this image:
  
-![fig2](images/fig2d1p1.png)
+![fig2](../_images/fig2d1p1.png)
  
 ### 2.3. Organize your folder structure
  
@@ -83,7 +85,7 @@ Now is time to organize the folder structure you will use to run and organize yo
  
 In the lower-right quadrant of your session click in the "New Folder" icon. Cretae the three folders. Your "Files" window should look like this:
  
-![fig3](images/fig3d1p1.png)
+![fig3](../_images/fig3d1p1.png)
  
 The "data" folder will store the data files you need to run your project. The "src" folder will host all the R scripts (source files) containing R functions and helping script, and the "output" folder will contain your results and figures.
  
