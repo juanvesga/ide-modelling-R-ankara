@@ -1,18 +1,15 @@
 ---
-title: 'Solution to Day 3 Practical 1: The SIR model'
-date: "2023-06-05"
 type: assignment
+date: 2018-09-26T4:00:00+4:30
+title: 'Solution to Day 3 Practical 1: The SIR model'
+pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-due_event:
-  type: due
-  date: "2018-11-13T23:59:00+3:30"
-  description: 'Assignment #1 due'
-pdf: /static_files/assignments/asg.pdf
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
 ---
- 
-
- 
 By now we know how to code a compartmental model. We also know what an SIR model is and what are its main building blocks. In this exercise we will build on our previous code to construct a fully dynamic SIR model.
  
 ## 1. Building an SIR model

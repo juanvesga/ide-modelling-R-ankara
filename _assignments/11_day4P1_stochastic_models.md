@@ -1,16 +1,15 @@
 ---
-title: 'Day 4 Practical 1: Stochastic models'
-date: "2023-06-05"
 type: assignment
+date: 2018-09-26T4:00:00+4:30
+title: 'Day 4 Practical 1: Stochastic models'
+pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-due_event:
-  type: due
-  date: "2018-11-13T23:59:00+3:30"
-  description: 'Assignment #1 due'
-pdf: /static_files/assignments/asg.pdf
----
- 
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
+--- 
 
  
 In this practical we will apply some of the concepts about stochasticity, epidemic persistence and fade out probability. With that aim in mind we will start by exploring the binomial distribution, and how can we sample from a distribution in R.

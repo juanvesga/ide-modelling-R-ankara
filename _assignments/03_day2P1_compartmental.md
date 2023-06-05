@@ -1,16 +1,15 @@
 ---
-title: 'Day 2  Practical 1: Introduction to compartmental models'
-date: "2023-06-05"
 type: assignment
+date: 2018-09-26T4:00:00+4:30
+title: 'Day 2  Practical 1: Introduction to compartmental models'
+pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-due_event:
-  type: due
-  date: "2018-11-13T23:59:00+3:30"
-  description: 'Assignment #1 due'
-pdf: /static_files/assignments/asg.pdf
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
 ---
- 
 
  
 In our previous sessions we have reviewed how compartmental models can be used to describe infectious diseases. We have also examined how to specify rates of transition, its relation with time distributions and the how we interpret simple modelling output. During this first practical we will first see how a simple cohort model is coded, and will also examine testing the basic assumptions of the model.
