@@ -1,5 +1,5 @@
 ---
-title: 'Day 2  Practical 1: Introduction to compartmental models'
+title: 'Solution to Day 2  Practical 1: Introduction to compartmental models'
 date: "2023-06-05"
 type: assignment
 output: pdf_document
@@ -136,3 +136,47 @@ ggplot(data = output1_long,                                              # speci
 ```
 
 Task: Using the code above explore running the same model but now imagine a scenario where the mean infectious period in our cohort is 10 days instead of two days. Can you explain why the plot looks different?
+
+### Solution
+
+```{r echo=TRUE, warning=FALSE}
+
+# Tip: change gamma top 10 days as a rate 
+
+parameters <- c(gamma = 1/10)
+
+# Run again 
+output1 <- as.data.frame(ode(y = initial_state_values, 
+                             times = times, 
+                             func = cohort_model,
+                             parms = parameters))
+
+# Let's give the output a look by typing output1 in the console
+
+# You see that each state variable (I and R) have each one a column
+# For plotting this results we what we call long format, so let's use the rehsape 
+# package and function "melt" to get our output in that format
+
+# turn output data set into long format
+output1_long <- melt(as.data.frame(output1), id = "time")                  
+
+# Let's give the output a look by typing output1_long in the console
+
+
+## Plot model out
+
+# Plot the number of people in the I and R compartments over time
+ggplot(data = output1_long,                                              # specify object containing data to plot
+       aes(x = time, y = value, colour = variable, group = variable)) +  # assign columns to axes and groups
+  geom_line(size=2) +                                                    # represent data as lines
+  xlab("Time (days)")+                                                   # add label for x axis
+  ylab("Number") +                                                       # add label for y axis
+  labs(colour = "Compartment",                                           # add legend title  
+  title = "Cohort model")  
+
+
+
+
+```
+
+This plot basically reflects the fact that the recovery time (gamma) is longer now (10 days, instead of two). Hence, the decay of "I" and rise of "R" is less sharp.

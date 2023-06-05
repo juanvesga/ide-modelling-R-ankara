@@ -1,25 +1,24 @@
 ---
+title: 'Day 2  Practical 1: Introduction to compartmental models'
+date: "2023-06-05"
 type: assignment
-date: 2018-09-26T4:00:00+4:30
-title: "Day 2  Practical 1: Introduction to compartmental models" 
-pdf: /static_files/assignments/asg.pdf
+output: pdf_document
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-due_event: 
-    type: due
-    date: 2018-11-13T23:59:00+3:30
-    description: 'Assignment #1 due'
+due_event:
+  type: due
+  date: "2018-11-13T23:59:00+3:30"
+  description: 'Assignment #1 due'
+pdf: /static_files/assignments/asg.pdf
 ---
  
 
  
+In our previous sessions we have reviewed how compartmental models can be used to describe infectious diseases. We have also examined how to specify rates of transition, its relation with time distributions and the how we interpret simple modelling output. During this first practical we will first see how a simple cohort model is coded, and will also examine testing the basic assumptions of the model.
  
-In our previous sessions we have reviewed how compartmental models can be used to describe infectious diseases. We have also examined how to specify rates of transition, its relation with time distributions and the how we interpret simple modelling output. During this first practical we will first see how a simple cohort model is coded, and will also examine testing the basic assumptions of the model.  
+## 1. A simple cohort model
  
-## 1. A simple cohort model 
- 
-Remember the cohort model we have studied, where we start with an initial population of infected individuals and we allow a transition into recovery. Let us see what are the basic building blocks of that model. 
- 
+Remember the cohort model we have studied, where we start with an initial population of infected individuals and we allow a transition into recovery. Let us see what are the basic building blocks of that model.
  
 
 {% highlight r %}
@@ -130,117 +129,4 @@ ggplot(data = output1_long,                                              # speci
 
 ![plot of chunk unnamed-chunk-2](../_images/unnamed-chunk-2-1.png)
  
-Task: Using the code above explore running the same model but now imagine a scenario where the mean infectious period in our cohort is 10 days instead of two days. Can you explain why the plot looks different? 
- 
- 
-## 2. Competing hazards
- 
-Now that we have our model we can add complexity by examining further compartments and the case of competing hazards.
-In the next exercise we want to add a mortality compartment, that flows out of I, to describe the probability of death among the infected individuals. 
- 
-For the next steps, imagine that we have gathered information which suggets that the CFR for the disease we are modelling is 30%. Using that information, and the concepts we have reviewed try to incorporate a new M compartment, specify a mortality rate rate mu and run the model. 
- 
-Try and fill out the missing gaps in the script below: 
- 
- 
-
-{% highlight r %}
-## Add mortality to our cohort model 
- 
-# Population size:
-N <- 1000
- 
-# MODEL INPUTS:
- 
-# Initial conditions
-initial_state_values <- c(
-  I = N,
-  M = 0,
-  R = 0)           
- 
-# Parameter values per day
- 
-# For a CFR of 30% , what is mu? 
- 
-mu= 0.5*0.3/(1-0.3) # gamma*CFR/(1-CFR)
- 
-parameters <- c(gamma = 1/2, mu)
- 
-# TIMESTEPS:
- 
-# Vector storing the sequence of timesteps to solve the model at
-times <- seq(from = 0, to = 50, by = 1)   # from 0 to 365 days in daily intervals
- 
-# MODEL FUNCTION: 
- 
-# The model function takes as input arguments (in the following order): time, state and parameters
-cohort_model2 <- function(time, state, parameters) {  
-  
-  with(as.list(c(state, parameters)), {     
-    
-    # Calculating the total population size N (the sum of the number of people in each compartment)
-    N <- I+R
-    
-    # The differential equations
-    dI <- -(gamma+mu) * I     
-    dM <- I*mu
-    dR <- gamma * I
-    
-    return(list(c(dI, dM, dR))) 
-  })
-  
-}
- 
-# MODEL OUTPUT (solving the differential equations):
- 
-# Solving the differential equations using the ode integration algorithm
-output2 <- as.data.frame(ode(y = initial_state_values, 
-                             times = times, 
-                             func = cohort_model2,
-                             parms = parameters))
- 
- 
-# turn output dataset into long format
-output2_long <- melt(as.data.frame(output2), id = "time")                 
- 
- 
-# Plot the new output
-ggplot(data = output2_long,                                               
-       aes(x = time, y = value, colour = variable, group = variable)) +  
-  geom_line(size=2) +                                                          
-  xlab("Time (days)")+                                                   
-  ylab("Number") +                                                       
-  labs(colour = "Compartment",                                          
-       title = "Cohort model")    
-{% endhighlight %}
-
-![plot of chunk unnamed-chunk-3](../_images/unnamed-chunk-3-1.png)
- 
- 
-### 2.1 Explore CFR from our simulation
- 
-We have our model now with added mortality, try and check if CFR as estimated from the model corresponds to CFR =30% 
- 
-
-{% highlight r %}
-# For that, we might want to see the proportion of poeple in each compartment
- 
-output3_long<- output2_long
-output3_long$value<-output2_long$value/N
- 
- 
-# Plot the proportion of people in the S, I and R compartments over time
-ggplot(data = output3_long,                                               
-       aes(x = time, y = value, colour = variable, group = variable)) +  
-  geom_line(size=2) +                                                        
-  xlab("Time (days)")+                                                  
-  ylab("Number") +                                                      
-  labs(colour = "Compartment",                                          
-       title = "Cohort model")  
-{% endhighlight %}
-
-![plot of chunk unnamed-chunk-4](../_images/unnamed-chunk-4-1.png)
-
-{% highlight r %}
-# Can you tell from the graph what proportion of people have died as a result of the disease?
-{% endhighlight %}
+Task: Using the code above explore running the same model but now imagine a scenario where the mean infectious period in our cohort is 10 days instead of two days. Can you explain why the plot looks different?
