@@ -2,7 +2,6 @@
 title: "Day 5 Practical 1: Creating a model of COVID-19"
 date: "2023-06-05"
 type: assignment
-output: pdf_document
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
 due_event:

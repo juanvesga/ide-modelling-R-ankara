@@ -2,7 +2,6 @@
 title: 'Day 2  Practical 2: Comperting hazards'
 date: "2023-06-05"
 type: assignment
-output: pdf_document
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
 due_event:

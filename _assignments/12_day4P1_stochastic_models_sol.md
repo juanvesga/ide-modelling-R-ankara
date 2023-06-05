@@ -2,7 +2,6 @@
 title: 'Solution to Day 4 Practical 1: Stochastic models'
 date: "2023-06-05"
 type: assignment
-output: pdf_document
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
 due_event:
