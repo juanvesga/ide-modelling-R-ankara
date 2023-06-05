@@ -1,18 +1,15 @@
 ---
-title: 'Day 1 Practical 1: Introduction to R'
-date: "2023-06-05"
 type: assignment
+date: 2018-09-26T4:00:00+4:30
+title: 'Day 1 Practical 1: Introduction to R'
+pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
-published: true
-status: publish
-due_event:
-  type: due
-  date: "2018-11-13T23:59:00+3:30"
-  description: 'Assignment #1 due'
-pdf: /static_files/assignments/asg.pdf
+due_event: 
+    type: due
+    date: 2018-11-13T23:59:00+3:30
+    description: 'Assignment #1 due'
 ---
- 
 
  
 In this first practical we will aim to set us up with installing R and RStudio (if you have not done so yet!), familiarize with the RStudio environment and explore a first hands-on experience in creating an R project. This is the first step to create reproducible and meaningful code in R.
