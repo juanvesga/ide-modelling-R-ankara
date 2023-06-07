@@ -13,5 +13,4 @@ links:
     #   name: slides
 ---
 **Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+- [Fraser et al 2004. PNAS. Outbreak control](https://www.pnas.org/doi/10.1073/pnas.0307506101)

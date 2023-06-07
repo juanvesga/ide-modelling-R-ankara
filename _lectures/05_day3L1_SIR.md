@@ -13,5 +13,6 @@ links:
     #   name: slides
 ---
 **Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+- [Bjornstad et al. SEIRS for ID modelling](https://www.nature.com/articles/s41592-020-0856-2)
+- [Epirecipes: ID modelling examples in differnet programming languages](http://epirecip.es/epicookbook/)
+

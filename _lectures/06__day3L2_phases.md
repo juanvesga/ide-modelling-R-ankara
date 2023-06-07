@@ -13,5 +13,5 @@ links:
     #   name: slides
 ---
 **Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+- [O'Driscoll et al 2021.CID. R estimation methods](https://academic.oup.com/cid/article/73/1/e215/5932264)
+

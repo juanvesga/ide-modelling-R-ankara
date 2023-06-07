@@ -13,5 +13,6 @@ links:
     #   name: slides
 ---
 **Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+- [Grassly NC et al. review on ID mathematical models ](https://www.nature.com/articles/nrmicro1845)
+- [Garnett et al. Mathematical models in the evaluation of health programmes](https://pubmed.ncbi.nlm.nih.gov/21481448/)
+- [White et al. Mathematical Models in Infectious Disease Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7150075/)

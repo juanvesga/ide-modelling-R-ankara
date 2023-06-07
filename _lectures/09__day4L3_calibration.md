@@ -13,5 +13,4 @@ links:
     #   name: slides
 ---
 **Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+- [Keeling & Rohani Modelling ID book](http://www.modelinginfectiousdiseases.org/)
