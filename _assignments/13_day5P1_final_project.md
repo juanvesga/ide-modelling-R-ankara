@@ -2,9 +2,9 @@
 type: assignment
 date: 2018-09-26T4:00:00+4:30
 title: 'Day 5 Final project'
-pdf: /static_files/assignments/asg.pdf
-attachment: /static_files/assignments/asg.zip
-solutions: /static_files/assignments/asg_solutions.pdf
+pdf: /static_files/assignments/13_day5P1_final_project.pdf
+#attachment: /static_files/assignments/asg.zip
+#solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
     date: 2018-11-13T23:59:00+3:30
