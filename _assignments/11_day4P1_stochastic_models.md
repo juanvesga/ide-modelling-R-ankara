@@ -2,7 +2,7 @@
 type: assignment
 date: 2018-09-26T4:00:00+4:30
 title: 'Day 4 Practical 1: Stochastic models'
-pdf: /static_files/assignments/09_day3P2_R0_herd.pdf
+pdf: /static_files/assignments/11_day4P1_stochastic_models.pdf
 #attachment: /static_files/assignments/asg.zip
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 

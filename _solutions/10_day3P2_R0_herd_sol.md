@@ -2,9 +2,9 @@
 type: assignment
 date: 2018-09-26T4:00:00+4:30
 title: 'Solution to Day 3  Practical 2: R0 and herd immunity '
-pdf: /static_files/assignments/asg.pdf
-attachment: /static_files/assignments/asg.zip
-solutions: /static_files/assignments/asg_solutions.pdf
+pdf: /static_files/assignments/09_day3P2_R0_herd_sol.pdf
+#attachment: /static_files/assignments/asg.zip
+#solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
     date: 2018-11-13T23:59:00+3:30
