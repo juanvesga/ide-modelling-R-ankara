@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Bu siteyi İngilizce görmek için buraya tıklayın [<img src="_images/flag_tur.png"  width="20">](https://juanvesga.github.io/ide-modelling-R-ankara-turkish/)
+To see this site in Turkish click here [<img src="_images/flag_tur.png"  width="40">](https://juanvesga.github.io/ide-modelling-R-ankara-turkish/)
 
 
 ## Course evaluation 
