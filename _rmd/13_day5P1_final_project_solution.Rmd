@@ -10,7 +10,7 @@ output:
 attachment: /static_files/assignments/asg.zip
 solutions: /static_files/assignments/asg_solutions.pdf
 published: no
-status: process
+status: done_process
 due_event:
   type: due
   date: "2018-11-13T23:59:00+3:30"
