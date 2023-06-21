@@ -3,7 +3,7 @@ type: assignment
 date: 2018-09-26T4:00:00+4:30
 title: "Day 5 Practical 1: Creating a model of COVID-19"
 pdf: /static_files/assignments/13_day5P1_final_project.pdf
-attachment: /static_files/assignments/data_files.zip
+attachment: /static_files/assignments/daily_cases_countryX.csv
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
